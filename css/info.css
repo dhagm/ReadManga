@@ -5,6 +5,9 @@ body{
     text-align: center;
 }
 
-a{
+.ulChapList a{
     text-decoration: none;
+    color: white;
+    margin: 1px;
+    border: inset black;
 }
