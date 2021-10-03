@@ -28,6 +28,9 @@ body{
 .mangaIcon{
 	margin-top: 10px;
 	width: 90%;
+	height: 70%;
+	object-fit: contain;
+	overflow: hidden;
 }
 
 .mangaTitle{
