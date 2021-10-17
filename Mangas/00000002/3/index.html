@@ -27,8 +27,13 @@
         <select class="selectChapter" onchange="gotochap(this.value)">
             <option value="1">Chapter 1</option>
             <option value="2">Chapter 2</option>
-            <option>Chapter 3</option>
+            <option selected>Chapter 3</option>
+            <option value="4">Chapter 4</option>
+            <option value="5">Chapter 5</option>
+            <option value="6">Chapter 6</option>
+            <option value="7">Chapter 7</option>
         </select>
+        <a href="../4/index.html" class="control_chap"><p>Chap Sau</p></a>
     </div>
 
     <div class="imgChapContainer">
@@ -111,6 +116,7 @@
             if (event.keyCode == 37){
                 window.location.href = "../2/index.html";
             }else if (event.keyCode == 39){
+                window.location.href = "../4/index.html";
             }
         }
 function gotochap(chap){
