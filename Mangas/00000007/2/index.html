@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Truyện tranh online - Cuộc sống thiên đường bắt đầu với vua hang động Chapter 2</title>
+    <link rel="stylesheet" href="../../../css/readIndex.css">
+	<link rel="stylesheet" href="../../../css/topNavigationBar.css">
+</head>
+<body onkeydown="keydown(event)">
+	<div class="topnav">
+		<a class="active"  href="../../../index.html">Trang chủ</a>
+		<a href="#type">Thể loại</a>
+		<a href="#favourite">Yêu thích</a>
+		<a href="#about">Thông tin</a>
+	</div>
+
+    <div class="chapInfo">
+        <h2>Cuộc sống thiên đường bắt đầu với vua hang động Chapter 2</h2>
+    </div>
+
+    <div class="bottomNavigationChap">
+        <a href="../../../index.html" class="nav_link"><img class="listIconBottom" src="../../../UI Icon/Home-Icon.png"></a>
+        <a href="../info.html" class="nav_link"><img class="listIconBottom" src="../../../UI Icon/list-icon.png"></a>
+        <a href="../1/index.html" class="control_chap"><p>Chap Trước</p></a>
+        <select class="selectChapter" onchange="gotochap(this.value)">
+            <option value="1">Chapter 1</option>
+            <option selected>Chapter 2</option>
+            <option value="3">Chapter 3</option>
+            <option value="4">Chapter 4</option>
+            <option value="5">Chapter 5</option>
+            <option value="6">Chapter 6</option>
+            <option value="7">Chapter 7</option>
+            <option value="8">Chapter 8</option>
+            <option value="9">Chapter 9</option>
+            <option value="10">Chapter 10</option>
+            <option value="11">Chapter 11</option>
+            <option value="12">Chapter 12</option>
+        </select>
+        <a href="../3/index.html" class="control_chap"><p>Chap Sau</p></a>
+    </div>
+
+    <div class="imgChapContainer">
+        <img src="./002.jpg">
+        <img src="./003.jpg">
+        <img src="./004.jpg">
+        <img src="./005.jpg">
+        <img src="./006.jpg">
+        <img src="./007.jpg">
+        <img src="./008.jpg">
+        <img src="./009.jpg">
+        <img src="./010.jpg">
+        <img src="./011.jpg">
+        <img src="./012.jpg">
+        <img src="./013.jpg">
+        <img src="./014.jpg">
+        <img src="./015.jpg">
+        <img src="./h (1).jpg">
+        <img src="./h (2).jpg">
+        <img src="./h (3).jpg">
+        <img src="./h (4).jpg">
+        <img src="./h (5).jpg">
+        <img src="./h (6).jpg">
+        <img src="./h (7).jpg">
+        <img src="./h (8).jpg">
+        <img src="./h (9).jpg">
+        <img src="./h (10).jpg">
+        <img src="./h (11).jpg">
+        <img src="./h (12).jpg">
+        <img src="./h (13).jpg">
+        <img src="./h (14).jpg">
+        <img src="./h (15).jpg">
+        <img src="./h (16).jpg">
+        <img src="./h (17).jpg">
+        <img src="./h (18).jpg">
+    </div>
+    
+    <script lang="text/javascript">
+        function keydown(event) {
+            if (event.keyCode == 37){
+                window.location.href = "../1/index.html";
+            }else if (event.keyCode == 39){
+                window.location.href = "../3/index.html";
+            }
+        }
+function gotochap(chap){
+        window.location.href = "../" + chap + "/index.html";
+}
+    </script>
+</body>
+</html>
